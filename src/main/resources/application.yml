@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: Lenkeran5566
+    url: jdbc:mysql://localhost:3306/eventify_base
+  jpa:
+    show-sql: true
+
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.yml
